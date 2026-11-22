@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint": "^10.15.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test",
+    "build": "npm pack"
+  },
+  "name": "lab6-ci-pipeline",
+  "version": "1.0.0"
+}
