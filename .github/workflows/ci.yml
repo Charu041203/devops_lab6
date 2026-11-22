@@ -41,3 +41,6 @@ jobs:
         with:
           name: node-package-${{ matrix.node-version }}
           path: '*.tgz'
+    defaults:
+      run:
+        working-directory: ./Lab 6
